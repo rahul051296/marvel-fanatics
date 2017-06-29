@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css?family=Bree+Serif');
+@import url('https://fonts.googleapis.com/css?family=Acme');
+header{
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../assets/img/background (2).jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  padding-bottom: 340px;
+  //height: 600px;
+}
+.jumbotron
+{
+  color: white;
+  font-family: mySecondFont;
+  //box-shadow: 0px 5px 5px 2px #000000;
+  background: rgba(14, 14, 10,0.5);
+  width: 60%;
+  margin: 0 auto;
+  position: relative;
+  top: 150px;
+  border-radius: 20px;
+}
+.jumbotron h1
+{
+  font-size: 5em;
+}
+.navbar-toggle
+{
+  border: 0;
+}
+.fa-bars
+{
+  font-size: 25px;
+  margin-top: -5px;
+}
+.navbar-toggle:hover
+{
+  background: rgba(0, 0, 0, 0);
+}
+.navbar-default
+{
+  background: rgba(0, 0, 0, 0);
+  border: 0;
+  padding: 20px 10px 20px 10px;
+  margin-bottom: 0;
+  color: white;
+  font-family: 'mySecondFont', serif;
+}
+.jumbotron button
+{
+  margin-top: 30px;
+  padding: 15px;
+  font-family: 'mySecondFont',serif;
+  font-size: 30px;
+}
+.navbar-brand
+{
+color: #fff;
+font-size: 35px;
+transform: scale(1.2);
+font-family: 'mySecondFont',serif;
+font-weight: lighter;
+}
+.navbar-nav>li> a
+{
+  color: white;
+  font-size: 18px;
+  transform: scale(1.2);
+}
+
+@media only screen and (max-width:769px) {
+  .jumbotron
+  {
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 150px;
+    border-radius: 20px;
+  }
+  header
+  {
+    padding-bottom: 400px;
+  }
+  .jumbotron h1
+  {
+    font-size: 4em;
+
+  }
+}
