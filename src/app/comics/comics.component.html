@@ -5,7 +5,8 @@
   <div class="clearfix" ></div>
   <div class="col-md-3 col-sm-4 col-xs-6 fix" *ngFor="let cm of cms">
     <img class="img-responsive" src="{{cm.thumbnail.path}}.jpg"/>
-      <p class="comicTitle text-center">{{cm.title}}</p>
+    <p class="comicTitle text-center">{{cm.title}}</p>
+        <p class="text-center text-muted" id="dates">{{cm.dates[0].date.substr(0,10)}}</p>
   </div>
 </div>
 </div>

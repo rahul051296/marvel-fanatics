@@ -25,14 +25,14 @@ $(document).scroll(function()
             {
                 $('.navbar-default').css('background-color','rgba(104, 1, 2,0.95)');
                 $('.navbar-brand').css('transform','scale(1)').css('transition','transform .5s');
-                $('.navbar-nav>li> a').css('transform','scale(1)').css('transition','transform .5s');
+                $('.navbar-nav>li> a').css('font-size','18px').css('transition','font-size .5s');
                 $('.navbar-default').css('box-shadow','0px 0px 8px 2px #000000').css('padding','10px').css('transition','padding .5s');
              }
          else
              {
                  $('.navbar-default').css('background-color','rgba(0, 0, 0, 0.1)');
                  $('.navbar-brand').css('transform','scale(1.2)').css('transition','transform .5s');
-                 $('.navbar-nav>li> a').css('transform','scale(1.2)').css('transition','transform .5s');
+                 $('.navbar-nav>li> a').css('font-size','22px').css('transition','font-size .5s');
                 $('.navbar-default').css('box-shadow','0px 0px 0px 0px #000000').css('padding','20px 10px 20px 10px').css('transition','padding .5s');
             }
     });

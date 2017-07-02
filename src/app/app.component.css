@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bree+Serif');
 @import url('https://fonts.googleapis.com/css?family=Acme');
 header{
-  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../assets/img/background (2).jpg');
+  background: linear-gradient( rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4) ), url('../assets/img/background.jpg');
     height: 100%;
     background-position: top;
     background-repeat: no-repeat;
@@ -11,7 +11,6 @@ header{
 {
   color: white;
   font-family: mySecondFont;
-  //box-shadow: 0px 5px 5px 2px #000000;
   background: rgba(14, 14, 10,0.5);
   width: 60%;
   margin: 0 auto;
@@ -64,7 +63,7 @@ font-weight: lighter;
 {
   color: white;
   font-size: 18px;
-  transform: scale(1.2);
+  //transform: scale(1.2);
 }
 
 @media only screen and (max-width:769px) {
