@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { DataService } from '../dataservice.service'
 
 @Component({
   selector: 'app-comics',
@@ -6,10 +7,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./comics.component.css']
 })
 export class ComicsComponent implements OnInit {
-
-  constructor() { }
+    cms: any;
+  constructor(private dataService: DataService) { }
 
   ngOnInit() {
+      this.getComics();
   }
+    getComics(){
+    this.dataService.getComics().subscribe(response => {
+        this.cms = response.data.results;
+        console.log(response.data.results);
+    });
+}
 
 }

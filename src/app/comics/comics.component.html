@@ -1,3 +1,11 @@
-<p style="height:300px;">
-  comics works!
-</p>
+
+<div class="container">
+  <h1 class="text-center" id="titleId">Latest Comics</h1><hr>
+<div class="row">
+  <div class="clearfix" ></div>
+  <div class="col-md-3 col-sm-4 col-xs-6 fix" *ngFor="let cm of cms">
+    <img class="img-responsive" src="{{cm.thumbnail.path}}.jpg"/>
+      <p class="comicTitle text-center">{{cm.title}}</p>
+  </div>
+</div>
+</div>

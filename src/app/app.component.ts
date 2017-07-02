@@ -14,8 +14,7 @@ export class AppComponent {
   ngOnInit(){
     $(document).ready(function()
     {
-
-        var scroll_start = 0;
+      var scroll_start = 0;
         var startchange = $('#button1');
         var offset = startchange.offset();
 

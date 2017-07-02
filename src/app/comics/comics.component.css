@@ -1,0 +1,19 @@
+.comicTitle
+{
+  font-size: 1.4em;
+  width: 100%;
+  padding: 20px 0 10px 0;
+  font-family: mySecondFont;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fix {
+	height: 100%;
+  }
+  h1#titleId
+  {
+    margin: 80px 0 40px 0;
+    font-size: 4em;
+    font-family: mySecondFont;
+  }
