@@ -1,4 +1,4 @@
-@font-face{font-family:mySecondFont;src:url(font1.a6bec1c4ef2d2fd1bac5.ttf)}@font-face{font-family:myFirstFont;src:url(font2.44a21eecd860f09edafc.ttf)}/*!
+@font-face{font-family:mySecondFont;src:url(font1.a6bec1c4ef2d2fd1bac5.ttf)}@font-face{font-family:myFirstFont;src:url(font2.44a21eecd860f09edafc.ttf)}body,html{height:100%;font-family:mySecondFont}/*!
  * Bootstrap v3.3.7 (http://getbootstrap.com)
  * Copyright 2011-2016 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
