@@ -12,12 +12,11 @@ export class ComicsComponent implements OnInit {
 
   ngOnInit() {
       this.getComics();
+
   }
     getComics(){
     this.dataService.getComics().subscribe(response => {
         this.cms = response.data.results;
-        //console.log(response.data.results);
     });
 }
-
 }

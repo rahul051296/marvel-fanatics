@@ -54,16 +54,14 @@ header{
 .navbar-brand
 {
 color: #fff;
-font-size: 35px;
-transform: scale(1.2);
+font-size: 40px;
 font-family: 'mySecondFont',serif;
 font-weight: lighter;
 }
 .navbar-nav>li> a
 {
   color: white;
-  font-size: 18px;
-  //transform: scale(1.2);
+  font-size: 22px;
 }
 
 @media only screen and (max-width:769px) {
