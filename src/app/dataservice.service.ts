@@ -13,4 +13,8 @@ export class DataService {
         return this.http.get(this.baseUrl+'comics?format=comic&dateDescriptor=thisMonth&orderBy=onsaleDate&apikey=6cf3adeb76d04a5b80fbb7c273de5e52&hash=e7b33683f7234e9a262add8c3b918c74&ts=1')
         .map(res => res.json());
 }
+  getGraphicNovel()  {
+    return this.http.get(this.baseUrl+'comics?format=graphic%20novel&limit=20&apikey=6cf3adeb76d04a5b80fbb7c273de5e52&hash=e7b33683f7234e9a262add8c3b918c74&ts=1')
+    .map(res => res.json());
+  }
 }

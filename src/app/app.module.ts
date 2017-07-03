@@ -6,7 +6,7 @@ import { DataService } from './dataservice.service';
 import { SmoothScrollToDirective, SmoothScrollDirective } from '../../node_modules/ng2-smooth-scroll';
 import { AppComponent } from './app.component';
 import { ComicsComponent } from './comics/comics.component';
-import { CharactersComponent } from './characters/characters.component';
+import { GraphicNovelComponent } from './graphic-novel/graphic-novel.component';
 
 
 @NgModule({
@@ -15,7 +15,7 @@ import { CharactersComponent } from './characters/characters.component';
     SmoothScrollToDirective,
     SmoothScrollDirective,
     ComicsComponent,
-    CharactersComponent,
+    GraphicNovelComponent,
   ],
   imports: [
     BrowserModule,
@@ -26,8 +26,8 @@ import { CharactersComponent } from './characters/characters.component';
         component: ComicsComponent
       },
       {
-        path: 'characters',
-        component: CharactersComponent
+        path: 'graphic-novel',
+        component: GraphicNovelComponent
       }
     ])
   ],

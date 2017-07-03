@@ -16,7 +16,7 @@ export class ComicsComponent implements OnInit {
     getComics(){
     this.dataService.getComics().subscribe(response => {
         this.cms = response.data.results;
-        console.log(response.data.results);
+        //console.log(response.data.results);
     });
 }
 
