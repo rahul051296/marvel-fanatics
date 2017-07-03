@@ -22,13 +22,45 @@ p#dates{
     text-decoration: underline;
     font-family: mySecondFont;
   }
+  .fix
+  {
+    object-fit: contain;
+    width: 100%;
+    height: 340px;
+  }
 @media only screen and (max-width:991px) {
-  .fix {
-  	//height: 450px;
-    }
+  .fix
+  {
+    object-fit: contain;
+    width: 100%;
+    height: 340px;
+  }
 }
 @media only screen and (max-width:767px) {
-  .fix {
-  	height: auto;
-    }
+  .fix
+  {
+    object-fit: contain;
+    width: 100%;
+    height: 280px;
+  }
+  .comicTitle
+  {
+    font-size: 1.6em;
+  }
+}
+@media only screen and (max-width:360px) {
+  .fix
+  {
+    object-fit: contain;
+    width: 100%;
+    height: 200px;
+  }
+  h1#titleId
+  {
+font-size: 3em;
+  }
+  .comicTitle
+  {
+    font-size: 1.3em;
+  }
 }
